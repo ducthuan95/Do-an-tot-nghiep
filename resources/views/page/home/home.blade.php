@@ -122,7 +122,7 @@
          
         
              <div class="grid-item">
-                <div class="product-card" style="height: 325px;">
+                <div class="product-card" style="height: 380px;">
                   @if($product->promo_price!=0)
                     <div class="product-badge text-danger">Giảm giá: {{(round(100*($product->unit_price-$product->promo_price)/$product->unit_price)) }}%</div>
                     @elseif($product->status==2)
@@ -136,7 +136,7 @@
                        <i class='icon-star filled'></i>  
                     @endfor
                     </div>
-                  <a class="product-thumb" href="{{ route('detailproduct',['alias'=>$product->alias,'id'=>$product->id]) }}"><img src="public/uploads/product/{{$product->image_product[0]['image']}}" alt="Product"></a>
+                  <a class="product-thumb" href="{{ route('detailproduct',['alias'=>$product->alias,'id'=>$product->id]) }}"><img src="public/uploads/product/{{$product->image_product[0]['image']}}" alt="Product" style="height: 200px;"></a>
                   <h3 class="product-title"><a href="{{ route('detailproduct',['alias'=>$product->alias,'id'=>$product->id]) }}">{{$product->product_name}}</a></h3>
                   <h4 class="product-price">
                     @if($product->promo_price!=0)

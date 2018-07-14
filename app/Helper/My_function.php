@@ -186,7 +186,7 @@ function colorlib()
 
  function size_lib()
 {
-    $data= array( 'thuonghieu' =>array( 'HIKVISION', 'Sony', 'SEAGATE '));
+    $data= array( 'thuonghieu' =>array( 'HIKVISION', 'Sony', 'SEAGATE', 'WESTERN'));
     return $data;
 }
 
