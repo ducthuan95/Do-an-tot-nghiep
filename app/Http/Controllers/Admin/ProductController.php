@@ -335,20 +335,21 @@ class ProductController extends Controller {
      */
     public function destroy($id) {
         
-        if(OrderDetail::where('product_id', '<>', $id)->get())
-        {
-            return redirect()->back()->with(['notify' => 'error', 'mss' => "Không thể xóa sản phẩm"]);
-        } else {
+        // if(OrderDetail::where('product_id', '<>', $id)->get())
+        // {
+        //     return redirect()->back()->with(['notify' => 'error', 'mss' => "Không thể xóa sản phẩm"]);
+        // } else {
+            OrderDetail::where('product_id', '=', $id)->delete();
             Color::where('product_id', '=', $id)->delete();
             Size::where('product_id', '=', $id)->delete();
-            Product::destroy($id);
             $images = ImageProduct::where('product_id', '=', $id)->get();
             foreach ($images as $img) {
                 Storage::deleteDirectory("/public/uploads/product/{$img->image}");
             }
             ImageProduct::where('product_id', '=', $id)->delete();
+            Product::destroy($id);
             return redirect()->back()->with(['notify' => 'success', 'mss' => "Xóa sản phẩm  thành công"]);
-        }
+        //}
         
     }
 }

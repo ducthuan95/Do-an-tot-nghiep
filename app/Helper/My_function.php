@@ -38,7 +38,7 @@ return strtolower($str);
 
  function stringtonumber($string)
 {
-   $tring =str_replace('.','',$string);
+   $tring =str_replace(',','',$string);
    return  $tring;
 }
 function category($data, $parent_id, $str = ' ', $select)

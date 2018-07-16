@@ -77,49 +77,7 @@
           <div class="col-xl-3 col-lg-4 pull-xl-9 pull-lg-8">
             <aside class="sidebar">
               <div class="padding-top-2x hidden-lg-up"></div>
-              <!-- Widget Search-->
-  {{--             <section class="widget">
-                <form class="input-group form-group" method="get"><span class="input-group-btn">
-                    <button type="submit"><i class="icon-search"></i></button></span>
-                  <input class="form-control" type="search" placeholder="Search blog">
-                </form>
-              </section>
-              <!-- Widget Categories-->
-              <section class="widget widget-categories">
-                <h3 class="widget-title">Categories</h3>
-                <ul>
-                  <li><a href="#">Editor's Choice</a><span>(24)</span></li>
-                  <li><a href="#">Fashion</a><span>(12)</span></li>
-                  <li><a href="#">Travel</a><span>(5)</span></li>
-                  <li><a href="#">Online Shopping</a><span>(7)</span></li>
-                  <li><a href="#">Closing Design</a><span>(3)</span></li>
-                </ul>
-              </section>
-              <!-- Widget Featured Posts--> --}}
-              <section class="widget widget-featured-posts">
-                <h3 class="widget-title">Featured Posts</h3>
-                <!-- Entry-->
-                <div class="entry">
-                  <div class="entry-thumb"><a href="blog-single-rs.html"><img src="img/blog/widget/01.jpg" alt="Post"></a></div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="blog-single-rs.html">Trending Winter Boots</a></h4><span class="entry-meta">by Olivia Reyes</span>
-                  </div>
-                </div>
-                <!-- Entry-->
-                <div class="entry">
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="blog-single-rs.html">Global Travel And Vacations Luxury Travel On A Tight Budget</a></h4><span class="entry-meta">by Logan Coleman</span>
-                  </div>
-                </div>
-                <!-- Entry-->
-                <div class="entry">
-                  <div class="entry-thumb"><a href="blog-single-rs.html"><img src="img/blog/widget/02.jpg" alt="Post"></a></div>
-                  <div class="entry-content">
-                    <h4 class="entry-title"><a href="blog-single-rs.html">Hoop Earrings A Style From History</a></h4><span class="entry-meta">by Cynthia Gomez</span>
-                  </div>
-                </div>
-              </section>
-              <!-- Widget Tags-->
+              
 
               <!-- Promo Banner-->
             <section class="promo-box" >

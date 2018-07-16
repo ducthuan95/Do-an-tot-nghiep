@@ -62,7 +62,6 @@
                   <tr>
                     <th>Đơn hàng</th>
                     <th>Ngày mua</th>
-                    
                     <th>Tổng tiền</th>
                     <th>Trạng thái</th>
                     <th>Thao Tác</th>
